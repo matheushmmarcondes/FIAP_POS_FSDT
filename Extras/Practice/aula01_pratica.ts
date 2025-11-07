@@ -1,7 +1,7 @@
 let idade: number;
 idade = 30 // Valor atribuido é do tipo number e seu tipo é explicitamente declarado anteriormente com a linha acima.
 
-let nome= "João"; // TS infere que o 'nome' é do tipo String e define assim o tipo da variável como String.
+let nome = "João"; // TS infere que o 'nome' é do tipo String e define assim o tipo da variável como String.
 
 const idade_2: number = 30; //Exenplo com número inteiro.
 const altura : number = 1.75; // Exemplo com ponto flutuante.
@@ -12,7 +12,7 @@ const mensagem: string = "Olá, Thamiris!";
 const ativo: boolean = true;
 const isAdmin: boolean = false;
 
-const x: number = 5;
+let x: number = 5;
 x = 10; // Isso é válido
 // x = "abc"; // Isso geraria um erro, pois "abc" não é um número
 
@@ -30,6 +30,7 @@ let segundoNome = nomes[1];      // Obtém o segundo nome ("João")
 // Unshift(): adiciona um ou mais elementos no início de um array e retorna o tamanho deste array.
 // reduce(): executa uma função reducer (forncida por mim) para cada elemento do array, resultando num único valor de retorno.
 // reverse(): inverte os itens de um array. O primeiro elemento do array se torna o último e o último torna-se o primeiro.
+
 
 
 
