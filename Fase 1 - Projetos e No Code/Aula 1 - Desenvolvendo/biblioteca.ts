@@ -8,7 +8,7 @@ class Livro {
     }
 
     exibirDetalhes() {
-        console.log('Livro: ${this.titulo}, publicado em ${this.anoPublicacao}.');
+        console.log(`Livro: ${this.titulo}, publicado em ${this.anoPublicacao}.`);
     }
 }
 
