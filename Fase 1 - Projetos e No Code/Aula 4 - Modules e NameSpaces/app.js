@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var matematica_js_1 = require("./matematica.js");
+console.log((0, matematica_js_1.somar)(5, 3));
+console.log((0, matematica_js_1.subtrair)(5, 3));
+var operacoesBasicas_js_1 = require("./operacoesBasicas.js");
+var operacoesAvancadas_js_1 = require("./operacoesAvancadas.js");
+console.log(operacoesBasicas_js_1.MatematicaBasica.somar(10, 7));
+console.log(operacoesBasicas_js_1.MatematicaBasica.subtrair(10, 7));
+console.log(operacoesAvancadas_js_1.MatematicaAvancada.exponenciar(3, 4));
